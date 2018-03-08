@@ -1,0 +1,30 @@
+
+http://localhost:8081/add/car
+
+//Ion Mihalache -> Pechea
+{"IMEI":"IMEI = Car1","IMSI":"4928652","speed":30,"startPoint":{"latitude":44.4634131,"longitude":26.0709552},"endPoint":{"latitude":44.491559,"longitude":26.09138798}}
+
+//Ion Mihalache -> Promenada
+{"IMEI":"IMEI = Car2","IMSI":"3566403","speed":20,"startPoint":{"latitude":44.4634131,"longitude":26.0709552},"endPoint":{"latitude":44.478423,"longitude":26.103554}}
+
+// Sos Nordului -> Oregon Park Pipera
+{"IMEI":"IMEI = Car3","IMSI":"5122813","speed":40,"startPoint":{"latitude":44.480934,"longitude":26.086138},"endPoint":{"latitude":44.481956,"longitude":26.107603}}
+
+
+
+http://localhost:8081/get/cars
+
+
+http://localhost:8081/start/car?imei=IMEI = Car2
+
+
+// Google Maps API example
+https://maps.googleapis.com/maps/api/directions/json?origin=44.4634131,26.0709552&destination=44.491559,26.09138798&key=AIzaSyB-UbOA1DB-amiBTjLRrBb-Owv9UkjFVZc
+
+
+
+//cURL
+curl -i -H "Accept: application/json" -H "Content-Type: application/json" -X GET http://localhost:8081/get/cars
+
+//POST
+curl --data "param1=value1&param2=value2" http://localhost:8081/add/car

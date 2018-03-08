@@ -1,0 +1,9 @@
+
+
+// start Zookeeper (CMD -> admin mode)
+zkserver
+
+// kafka folder ( cmd here )
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+
+

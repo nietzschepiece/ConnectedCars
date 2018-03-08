@@ -1,0 +1,33 @@
+;project {file:/C:/Users/cci/Desktop/DeloitteTechnicalChallenge/}deloittetechnicalchallenge; reload
+reload
+;project {file:/C:/Users/cci/Desktop/DeloitteTechnicalChallenge/}deloittetechnicalchallenge; --
+sbt update
+update
+;project {file:/C:/Users/cci/Desktop/DeloitteTechnicalChallenge/}deloittetechnicalchallenge; reload
+{file:/C:/Users/cci/Desktop/DeloitteTechnicalChallenge/}deloittetechnicalchallenge/autoCompilerPlugins
+;project {file:/C:/Users/cci/Desktop/DeloitteTechnicalChallenge/}deloittetechnicalchallenge; reload
+sbt compile
+compile
+clean compile
+clean
+compile
+run
+clean
+compile
+update
+clean
+compile
+compile -feature
+compile
+clean
+compile
+clean
+compile
+clean
+;project {file:/C:/Users/cci/Desktop/DeloitteTechnicalChallenge/}deloittetechnicalchallenge; reload
+clean
+compile
+;project {file:/C:/Users/cci/Desktop/DeloitteTechnicalChallenge/}deloittetechnicalchallenge; reload
+clean
+package
+clean
